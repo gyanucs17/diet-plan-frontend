@@ -17,20 +17,21 @@ Ensure you have the following installed on your machine:
 
 Open your terminal and run the following command to clone the repository:  
 
-bash  
-git clone https://github.com/gyanucs17/diet-plan-frontend.git  
+```bash  
+git clone https://github.com/gyanucs17/diet-plan-frontend.git
+```
 
 
 ### 2. Navigate to project directory
-bash  
+```bash  
 cd diet-plan-frontend  
-
+```
 
 ### 3. Install Dependencies
 Run the following commands to install the necessary dependencies:  
-bash  
+```bash  
 npm install  
-
+```
 
 ### 4. Configure environment variables
 Update the .env  with your portNo and Server Api URL.  
@@ -40,9 +41,9 @@ PORT=3000 //you can use any port
 
 ### 6. Start your web server
 Run the following commands to start server  
-bash  
+```bash  
 npm start   
-
+```
 
 ## CSV Uploads
 
