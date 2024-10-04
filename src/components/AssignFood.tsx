@@ -31,13 +31,10 @@ const AssignFood: React.FC = () => {
 
                 }
                     
-            },
-            (error: any) => {
-                handleApiError(error, 'Unable to get Nursing Home Resident', setMessage);
             });
             setSelectedResident(residentdName);
         } catch (error) {
-            handleApiError(error, 'Unable to get Nursing Home Resident', setMessage);
+            handleApiError(error, 'No food available as per residents IDDSI Level', setMessage);
         }
     };
 
