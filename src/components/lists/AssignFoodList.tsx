@@ -38,7 +38,7 @@ const FoodTable: React.FC<FoodTableProps> = ({ assignedFoodList, unAssignedFoodL
                         </tbody>
                     </table>
                 ) : (
-                    <p>No food items found.</p>
+                    <p>No food added to resident's diet plan.</p>
                 )}
             </div>
             <div className='bottom'>
@@ -73,7 +73,7 @@ const FoodTable: React.FC<FoodTableProps> = ({ assignedFoodList, unAssignedFoodL
                         </tbody>
                     </table>
                 ) : (
-                    <p>No food items found.</p>
+                    <p>No food available as per residents IDDSI Level.</p>
                 )}
             </div>
         </>
